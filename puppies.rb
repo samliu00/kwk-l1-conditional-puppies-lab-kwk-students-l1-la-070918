@@ -3,7 +3,7 @@ def no_puppies(x)
   if x > 0 
     puts "No more puppies!"
   else
-    puts "Good job, Rachel!"
+    puts "Well done, Rachel!"
   end
 end 
 
@@ -15,7 +15,7 @@ def less_puppies(n)
   if n < 3
     puts "Good job, Rachel!"
   elsif n == 3 
-    puts "Slow down!"
+    puts "Slow down! No more puppies."
   else n > 3
     puts "Get back to your animal goals!"
   end
