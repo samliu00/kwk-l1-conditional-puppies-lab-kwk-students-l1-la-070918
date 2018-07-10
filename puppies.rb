@@ -1,9 +1,9 @@
 # 1. Write a method called no_puppies that takes in a number of puppies as an argument. If the number of puppies is greater than zero then this method should return "No more puppies!" otherwise it should return "Well done, Rachel!"
 def no_puppies(x)
   if x > 0 
-    puts "No more puppies!"
+    puts "Get back to your animal goals!"
   else
-    puts "Well done, Rachel!"
+    puts "Good job, Rachel!"
   end
 end 
 
@@ -30,7 +30,7 @@ def some_puppies(f, m)
   if f < 5
     puts "Good job, Rachel!"
   else m > 10
-    puts "No more puppies!"
+    puts "Get back to your animal goals!"
   end
 end
 
@@ -38,15 +38,15 @@ some_puppies(4, 10)
 
 # BONUS
 # 4. Rachel has decided to track both her puppy allowance AND her cat allowance. Write a method called new_animal accumulation that takes in two arguments - number of puppies and number of cats. As long as she gets zero puppies OR zero cats this method should return "Good job!". If she gets 1 or more puppies AND 1 or more cats it should tell her she should really slow back down!
-def new_animal(d, c)
+def both_animals(d, c)
   if d = 0 || c = 0  
     puts "Good job!"
   else d >= 1 && c >= 1  
-    puts "Slow back down!"
+    puts "Get back to your animal goals!"
   end
 end 
 
-new_animal(1, 2)
+both_animals(1, 2)
 
 
 
